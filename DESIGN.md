@@ -29,3 +29,7 @@ POST /urls -> shortURL
 
 redirection
 GET /{shortURL} -> Redirect to Original URL
+
+## High Level Design
+
+![URL shortener high level design](./high-level-design.png)
