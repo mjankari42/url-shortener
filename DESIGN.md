@@ -15,3 +15,17 @@
 - Scale to support a million daily active users and 10 million URLs
 - Ensure uniqueness of short code
 - High availability, eventual consistency for URL shortening (CABS theory)
+
+## Core Entities
+
+- Original URL
+- Short URL
+- User
+
+## API
+
+shorten a url
+POST /urls -> shortURL
+
+redirection
+GET /{shortURL} -> Redirect to Original URL
